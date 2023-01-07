@@ -13,12 +13,12 @@ header {
 
 .header-container {
   text-align: right;
-  padding: 180px 230px 200px 845px;
+  padding: 180px 230px 180px 845px;
 }
 
 .section-title {
   font-weight: 700;
-  font-size: 65px;
+  font-size: 45px;
   color: #151414;
   padding-bottom: 24px;
 }
@@ -38,4 +38,31 @@ header {
   background: #f15b22;
   border-radius: 5px;
   border: none;
+}
+
+/* main css */
+
+main {
+  margin: 130px 200px;
+}
+
+/* failure section */
+
+.failure-container {
+  display: flex;
+  align-items: center;
+  gap: 85px;
+}
+
+.failure-descriptionn {
+  white-space: nowrap;
+  padding-bottom: 8px;
+}
+
+.fa-solid.fa-check {
+  color: #16d887;
+}
+
+.failure-container {
+  margin-bottom: 130px;
 }
