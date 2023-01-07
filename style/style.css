@@ -102,15 +102,9 @@ main {
 
 /* positive mindset section  */
 
-/* .positive-mindset  {
-    background: url('../images/watch.png');
-    width: 1140px;
-height: 300px;
-margin-right: 300px;
-} */
+
 
 .positive-container {
-  /* position: relative; */
 
   background-image: url("../images/watch.png"), url("../images/gradient2.png");
   border-radius: 8px;
@@ -139,7 +133,67 @@ margin-right: 300px;
   color: #f15b22;
   padding: 20px 36px;
   background: #ffffff;
-  border-radius: 5px;
+  border-radius: 8px;
   margin-top: 24px;
   border: none;
+}
+
+/* footer section */
+
+footer{
+    background: #151414;
+    width: 1600px;
+height: 577px;
+}
+
+.footer-container{
+    display: flex;
+    gap: 30px;
+    padding: 130px 200px;
+
+}
+
+.footer-title{
+    font-weight: 700;
+font-size: 45px;
+color: #F8F8F8;
+padding-bottom: 16px;
+}
+
+.footer-description{
+    font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+padding-bottom: 20px;
+
+}
+
+a{
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.footer-sub-title{
+
+    font-weight: 600;
+font-size: 25px;
+color: #FFFFFF;
+padding-bottom: 30px;
+}
+
+input{
+    padding: 20px;
+    border: 1px solid #FFFFFF;
+border-radius: 8px;
+background: #151414;
+    font-weight: 400;
+font-size: 18px;
+color: #F3F3F3;
+width: 325px;
+height: 64px;
+}
+
+.footer-right{
+    display: flex;
+    
 }
