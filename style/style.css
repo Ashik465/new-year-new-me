@@ -54,7 +54,7 @@ main {
   gap: 85px;
 }
 
-.failure-descriptionn {
+.failure-description {
   white-space: nowrap;
   padding-bottom: 8px;
 }
@@ -102,10 +102,7 @@ main {
 
 /* positive mindset section  */
 
-
-
 .positive-container {
-
   background-image: url("../images/watch.png"), url("../images/gradient2.png");
   border-radius: 8px;
   background-blend-mode: lighten;
@@ -140,60 +137,56 @@ main {
 
 /* footer section */
 
-footer{
-    background: #151414;
-    width: 1600px;
-height: 577px;
+footer {
+  background: #151414;
+  width: 1400px;
+  height: 577px;
 }
 
-.footer-container{
-    display: flex;
-    gap: 30px;
-    padding: 130px 200px;
-
+.footer-container {
+  display: flex;
+  gap: 100px;
+  padding: 130px 200px;
 }
 
-.footer-title{
-    font-weight: 700;
-font-size: 45px;
-color: #F8F8F8;
-padding-bottom: 16px;
+.footer-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #f8f8f8;
+  padding-bottom: 16px;
 }
 
-.footer-description{
-    font-weight: 400;
-font-size: 16px;
-color: #FFFFFF;
-padding-bottom: 20px;
-
+.footer-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  padding-bottom: 20px;
 }
 
-a{
-    text-decoration: none;
-    padding-top: 10px;
+a {
+  text-decoration: none;
+  padding-top: 10px;
 }
 
-.footer-sub-title{
-
-    font-weight: 600;
-font-size: 25px;
-color: #FFFFFF;
-padding-bottom: 30px;
+.footer-sub-title {
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+  padding-bottom: 30px;
 }
 
-input{
-    padding: 20px;
-    border: 1px solid #FFFFFF;
-border-radius: 8px;
-background: #151414;
-    font-weight: 400;
-font-size: 18px;
-color: #F3F3F3;
-width: 325px;
-height: 64px;
+input {
+  padding: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  background: #151414;
+  font-weight: 400;
+  font-size: 18px;
+  color: #f3f3f3;
+  width: 325px;
+  height: 64px;
 }
 
-.footer-right{
-    display: flex;
-    
+.footer-right {
+  display: flex;
 }
