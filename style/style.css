@@ -3,7 +3,7 @@
   font-family: "Work Sans";
 }
 
-/* Banner design */
+/* <!-- header section--> */
 
 header {
   background: url("../images/banner/banner1.png");
@@ -46,7 +46,7 @@ main {
   margin: 130px 200px;
 }
 
-/* failure section */
+/* <!-- my failure section --> */
 
 .failure-container {
   display: flex;
@@ -67,7 +67,7 @@ main {
   margin-bottom: 130px;
 }
 
-/* my plans css  */
+/* <!-- my plans section --> */
 
 .plan-title {
   text-align: center;
@@ -100,7 +100,7 @@ main {
   margin-bottom: 130px;
 }
 
-/* positive mindset section  */
+/* <!-- positive mindset section --> */
 
 .positive-container {
   background-image: url("../images/watch.png"), url("../images/gradient2.png");
@@ -135,7 +135,7 @@ main {
   border: none;
 }
 
-/* footer section */
+/* <!-- footer section --> */
 
 footer {
   background: #151414;
